@@ -493,11 +493,13 @@ body {
   box-shadow: 10px 10px 0 rgb(149, 225, 211);
 }
 
-.social-list__link:hover {
+.social-list__link:hover,
+.social-list__link:focus {
   background-color: rgb(243, 129, 129);
 }
 
-.social-list__item:hover .social-list__icon {
+.social-list__item:hover .social-list__icon,
+.social-list__item:focus .social-list__icon {
   fill: var(--main-color);
 }
 
